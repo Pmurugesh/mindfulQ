@@ -13,7 +13,7 @@ export async function fetchSummary(key: string): Promise<string> {
       },
       {
         headers: {
-          'X-Subscription-Token':  BRAVE_API_KEY,
+          'X-Subscription-Token': BRAVE_API_KEY,
           'Accept': 'application/json',
           // Add other headers as needed
         },

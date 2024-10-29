@@ -77,3 +77,21 @@ h3 {
 p {
   font-size: 14px;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #1a202c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #4299e1;
+  color: #fff;
+}
